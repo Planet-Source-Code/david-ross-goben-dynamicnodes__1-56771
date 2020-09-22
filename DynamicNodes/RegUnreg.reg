@@ -1,0 +1,15 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\.dll]
+@="dllfile"
+[HKEY_CLASSES_ROOT\dllfile\shell\Register\command]
+@="RegSvr32.exe \"%1\""
+[HKEY_CLASSES_ROOT\dllfile\shell\Unregister\command]
+@="RegSvr32.exe /u \"%1\""
+[HKEY_CLASSES_ROOT\.ocx]
+@="ocxfile"
+[HKEY_CLASSES_ROOT\ocxfile]
+@="OCX"
+[HKEY_CLASSES_ROOT\ocxfile\shell\Register\command]
+@="RegSvr32.exe \"%1\""
+[HKEY_CLASSES_ROOT\ocxfile\shell\Unregister\command]
+@="RegSvr32.exe /u \"%1\""
